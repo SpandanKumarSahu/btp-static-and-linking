@@ -1,0 +1,923 @@
+/usr/bin/cmake -H/home/spandan/KGP/BTP/project_dependency_parser/symengine -B/home/spandan/KGP/BTP/project_dependency_parser/symengine --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/spandan/KGP/BTP/project_dependency_parser/symengine/CMakeFiles /home/spandan/KGP/BTP/project_dependency_parser/symengine/CMakeFiles/progress.marks
+make -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f symengine/CMakeFiles/symengine.dir/build.make symengine/CMakeFiles/symengine.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[  0%] Generating CXX unity source symengine/cotire/symengine_CXX_unity.cxx
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/cmake -DCOTIRE_BUILD_TYPE:STRING=Release -DCOTIRE_VERBOSE:BOOL=1 -P /home/spandan/KGP/BTP/project_dependency_parser/symengine/cmake/cotire.cmake unity /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/symengine_CXX_cotire.cmake /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_unity.cxx
+[  1%] Generating CXX prefix source symengine/cotire/symengine_CXX_prefix.cxx
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/cmake -DCOTIRE_BUILD_TYPE:STRING=Release -DCOTIRE_VERBOSE:BOOL=1 -P /home/spandan/KGP/BTP/project_dependency_parser/symengine/cmake/cotire.cmake prefix /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/symengine_CXX_cotire.cmake /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.cxx /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_unity.cxx
+-- execute_process: /usr/bin/c++;-Wall;-Wextra;-Wno-unused-parameter;-fno-common;-O3;-march=native;-funroll-loops;-std=c++11;-fPIC;-Wno-unknown-pragmas;-I/home/spandan/KGP/BTP/project_dependency_parser/symengine;-I/home/spandan/anaconda3/include;-H;-E;-fdirectives-only;/home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_unity.cxx
+-- Scanning 615 unique lines of 632 for includes
+-- Ignored extensions: C;M;c++;cc;cpp;cxx;mm;CPP;inc;inl;ipp
+-- Ignored paths: /home/spandan/KGP/BTP/project_dependency_parser/symengine
+-- 141 line(s) skipped, see /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.cxx.log
+[  1%] Generating CXX prefix header symengine/cotire/symengine_CXX_prefix.hxx
+/usr/bin/cmake -DCOTIRE_BUILD_TYPE:STRING=Release -DCOTIRE_VERBOSE:BOOL=1 -P /home/spandan/KGP/BTP/project_dependency_parser/symengine/cmake/cotire.cmake combine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/symengine_CXX_cotire.cmake /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.cxx
+[  2%] Building CXX precompiled header symengine/cotire/symengine_CXX_prefix.hxx.gch
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/cmake -DCOTIRE_BUILD_TYPE:STRING=Release -DCOTIRE_VERBOSE:BOOL=1 -P /home/spandan/KGP/BTP/project_dependency_parser/symengine/cmake/cotire.cmake precompile /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/symengine_CXX_cotire.cmake /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx.gch add.cpp
+-- execute_process: /usr/bin/c++;-Wall;-Wextra;-Wno-unused-parameter;-fno-common;-O3;-march=native;-funroll-loops;-std=c++11;-fPIC;-Wno-unknown-pragmas;-I/home/spandan/KGP/BTP/project_dependency_parser/symengine;-I/home/spandan/anaconda3/include;-x;c++-header;-c;/home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx;-o;/home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx.gch
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/CMakeFiles/symengine.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f symengine/CMakeFiles/symengine.dir/build.make symengine/CMakeFiles/symengine.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[  3%] Building CXX object symengine/CMakeFiles/symengine.dir/add.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/add.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/add.cpp
+[  4%] Building CXX object symengine/CMakeFiles/symengine.dir/basic.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/basic.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/basic.cpp
+[  4%] Building CXX object symengine/CMakeFiles/symengine.dir/complex.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/complex.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/complex.cpp
+[  5%] Building CXX object symengine/CMakeFiles/symengine.dir/complex_double.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/complex_double.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/complex_double.cpp
+[  5%] Building CXX object symengine/CMakeFiles/symengine.dir/constants.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/constants.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/constants.cpp
+[  6%] Building CXX object symengine/CMakeFiles/symengine.dir/cse.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/cse.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cse.cpp
+[  6%] Building CXX object symengine/CMakeFiles/symengine.dir/cwrapper.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/cwrapper.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cwrapper.cpp
+[  7%] Building CXX object symengine/CMakeFiles/symengine.dir/dense_matrix.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/dense_matrix.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/dense_matrix.cpp
+[  7%] Building CXX object symengine/CMakeFiles/symengine.dir/derivative.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/derivative.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/derivative.cpp
+[  8%] Building CXX object symengine/CMakeFiles/symengine.dir/dict.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/dict.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/dict.cpp
+[  8%] Building CXX object symengine/CMakeFiles/symengine.dir/diophantine.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/diophantine.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/diophantine.cpp
+[  9%] Building CXX object symengine/CMakeFiles/symengine.dir/eval.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/eval.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/eval.cpp
+[  9%] Building CXX object symengine/CMakeFiles/symengine.dir/eval_double.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/eval_double.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/eval_double.cpp
+[ 10%] Building CXX object symengine/CMakeFiles/symengine.dir/expand.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/expand.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/expand.cpp
+[ 11%] Building CXX object symengine/CMakeFiles/symengine.dir/expression.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/expression.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/expression.cpp
+[ 11%] Building CXX object symengine/CMakeFiles/symengine.dir/fields.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/fields.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/fields.cpp
+[ 12%] Building CXX object symengine/CMakeFiles/symengine.dir/finitediff.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/finitediff.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/finitediff.cpp
+[ 12%] Building CXX object symengine/CMakeFiles/symengine.dir/functions.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/functions.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/functions.cpp
+[ 13%] Building CXX object symengine/CMakeFiles/symengine.dir/infinity.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/infinity.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/infinity.cpp
+[ 13%] Building CXX object symengine/CMakeFiles/symengine.dir/integer.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/integer.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/integer.cpp
+[ 14%] Building CXX object symengine/CMakeFiles/symengine.dir/logic.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/logic.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/logic.cpp
+[ 14%] Building CXX object symengine/CMakeFiles/symengine.dir/matrix.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/matrix.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/matrix.cpp
+[ 15%] Building CXX object symengine/CMakeFiles/symengine.dir/monomials.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/monomials.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/monomials.cpp
+[ 15%] Building CXX object symengine/CMakeFiles/symengine.dir/mul.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/mul.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/mul.cpp
+[ 16%] Building CXX object symengine/CMakeFiles/symengine.dir/nan.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/nan.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/nan.cpp
+[ 16%] Building CXX object symengine/CMakeFiles/symengine.dir/ntheory.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/ntheory.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/ntheory.cpp
+[ 17%] Building CXX object symengine/CMakeFiles/symengine.dir/number.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/number.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/number.cpp
+[ 17%] Building CXX object symengine/CMakeFiles/symengine.dir/numer_denom.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/numer_denom.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/numer_denom.cpp
+[ 18%] Building CXX object symengine/CMakeFiles/symengine.dir/parser/parser.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -Wno-conversion -o CMakeFiles/symengine.dir/parser/parser.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/parser/parser.cpp
+[ 19%] Building CXX object symengine/CMakeFiles/symengine.dir/parser/parser_old.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/parser/parser_old.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/parser/parser_old.cpp
+[ 19%] Building CXX object symengine/CMakeFiles/symengine.dir/parser/scanner.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -Wno-conversion -Wno-implicit-fallthrough -o CMakeFiles/symengine.dir/parser/scanner.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/parser/scanner.cpp
+[ 20%] Building CXX object symengine/CMakeFiles/symengine.dir/polys/basic_conversions.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/polys/basic_conversions.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/polys/basic_conversions.cpp
+[ 20%] Building CXX object symengine/CMakeFiles/symengine.dir/polys/msymenginepoly.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/polys/msymenginepoly.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/polys/msymenginepoly.cpp
+[ 21%] Building CXX object symengine/CMakeFiles/symengine.dir/polys/uexprpoly.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/polys/uexprpoly.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/polys/uexprpoly.cpp
+[ 21%] Building CXX object symengine/CMakeFiles/symengine.dir/polys/uintpoly.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/polys/uintpoly.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/polys/uintpoly.cpp
+[ 22%] Building CXX object symengine/CMakeFiles/symengine.dir/polys/uratpoly.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/polys/uratpoly.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/polys/uratpoly.cpp
+[ 22%] Building CXX object symengine/CMakeFiles/symengine.dir/pow.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/pow.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/pow.cpp
+[ 23%] Building CXX object symengine/CMakeFiles/symengine.dir/printers/codegen.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/printers/codegen.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/printers/codegen.cpp
+[ 23%] Building CXX object symengine/CMakeFiles/symengine.dir/printers/mathml.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/printers/mathml.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/printers/mathml.cpp
+[ 25%] Building CXX object symengine/CMakeFiles/symengine.dir/printers/strprinter.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/printers/strprinter.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/printers/strprinter.cpp
+[ 25%] Building CXX object symengine/CMakeFiles/symengine.dir/printers/latex.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/printers/latex.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/printers/latex.cpp
+[ 26%] Building CXX object symengine/CMakeFiles/symengine.dir/rational.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/rational.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/rational.cpp
+[ 26%] Building CXX object symengine/CMakeFiles/symengine.dir/real_double.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/real_double.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/real_double.cpp
+[ 27%] Building CXX object symengine/CMakeFiles/symengine.dir/rewrite.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/rewrite.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/rewrite.cpp
+[ 28%] Building CXX object symengine/CMakeFiles/symengine.dir/rings.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/rings.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/rings.cpp
+[ 28%] Building CXX object symengine/CMakeFiles/symengine.dir/series.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/series.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/series.cpp
+[ 29%] Building CXX object symengine/CMakeFiles/symengine.dir/series_generic.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/series_generic.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/series_generic.cpp
+[ 29%] Building CXX object symengine/CMakeFiles/symengine.dir/sets.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/sets.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/sets.cpp
+[ 30%] Building CXX object symengine/CMakeFiles/symengine.dir/solve.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/solve.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/solve.cpp
+[ 30%] Building CXX object symengine/CMakeFiles/symengine.dir/sparse_matrix.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/sparse_matrix.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/sparse_matrix.cpp
+[ 31%] Building CXX object symengine/CMakeFiles/symengine.dir/symbol.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/symbol.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/symbol.cpp
+[ 31%] Building CXX object symengine/CMakeFiles/symengine.dir/symengine_rcp.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/symengine_rcp.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/symengine_rcp.cpp
+[ 32%] Building CXX object symengine/CMakeFiles/symengine.dir/visitor.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/visitor.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/visitor.cpp
+[ 32%] Building CXX object symengine/CMakeFiles/symengine.dir/mp_wrapper.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/c++   -Dsymengine_EXPORTS -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -Wconversion -Wno-sign-conversion -Winvalid-pch -include /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/cotire/symengine_CXX_prefix.hxx -o CMakeFiles/symengine.dir/mp_wrapper.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/mp_wrapper.cpp
+[ 33%] Linking CXX static library libsymengine.a
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/cmake -P CMakeFiles/symengine.dir/cmake_clean_target.cmake
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine && /usr/bin/cmake -E cmake_link_script CMakeFiles/symengine.dir/link.txt --verbose=1
+/usr/bin/ar qc libsymengine.a  CMakeFiles/symengine.dir/add.cpp.o CMakeFiles/symengine.dir/basic.cpp.o CMakeFiles/symengine.dir/complex.cpp.o CMakeFiles/symengine.dir/complex_double.cpp.o CMakeFiles/symengine.dir/constants.cpp.o CMakeFiles/symengine.dir/cse.cpp.o CMakeFiles/symengine.dir/cwrapper.cpp.o CMakeFiles/symengine.dir/dense_matrix.cpp.o CMakeFiles/symengine.dir/derivative.cpp.o CMakeFiles/symengine.dir/dict.cpp.o CMakeFiles/symengine.dir/diophantine.cpp.o CMakeFiles/symengine.dir/eval.cpp.o CMakeFiles/symengine.dir/eval_double.cpp.o CMakeFiles/symengine.dir/expand.cpp.o CMakeFiles/symengine.dir/expression.cpp.o CMakeFiles/symengine.dir/fields.cpp.o CMakeFiles/symengine.dir/finitediff.cpp.o CMakeFiles/symengine.dir/functions.cpp.o CMakeFiles/symengine.dir/infinity.cpp.o CMakeFiles/symengine.dir/integer.cpp.o CMakeFiles/symengine.dir/logic.cpp.o CMakeFiles/symengine.dir/matrix.cpp.o CMakeFiles/symengine.dir/monomials.cpp.o CMakeFiles/symengine.dir/mul.cpp.o CMakeFiles/symengine.dir/nan.cpp.o CMakeFiles/symengine.dir/ntheory.cpp.o CMakeFiles/symengine.dir/number.cpp.o CMakeFiles/symengine.dir/numer_denom.cpp.o CMakeFiles/symengine.dir/parser/parser.cpp.o CMakeFiles/symengine.dir/parser/parser_old.cpp.o CMakeFiles/symengine.dir/parser/scanner.cpp.o CMakeFiles/symengine.dir/polys/basic_conversions.cpp.o CMakeFiles/symengine.dir/polys/msymenginepoly.cpp.o CMakeFiles/symengine.dir/polys/uexprpoly.cpp.o CMakeFiles/symengine.dir/polys/uintpoly.cpp.o CMakeFiles/symengine.dir/polys/uratpoly.cpp.o CMakeFiles/symengine.dir/pow.cpp.o CMakeFiles/symengine.dir/printers/codegen.cpp.o CMakeFiles/symengine.dir/printers/mathml.cpp.o CMakeFiles/symengine.dir/printers/strprinter.cpp.o CMakeFiles/symengine.dir/printers/latex.cpp.o CMakeFiles/symengine.dir/rational.cpp.o CMakeFiles/symengine.dir/real_double.cpp.o CMakeFiles/symengine.dir/rewrite.cpp.o CMakeFiles/symengine.dir/rings.cpp.o CMakeFiles/symengine.dir/series.cpp.o CMakeFiles/symengine.dir/series_generic.cpp.o CMakeFiles/symengine.dir/sets.cpp.o CMakeFiles/symengine.dir/solve.cpp.o CMakeFiles/symengine.dir/sparse_matrix.cpp.o CMakeFiles/symengine.dir/symbol.cpp.o CMakeFiles/symengine.dir/symengine_rcp.cpp.o CMakeFiles/symengine.dir/visitor.cpp.o CMakeFiles/symengine.dir/mp_wrapper.cpp.o
+/usr/bin/ranlib libsymengine.a
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 33%] Built target symengine
+make -f symengine/utilities/catch/CMakeFiles/catch.dir/build.make symengine/utilities/catch/CMakeFiles/catch.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch/CMakeFiles/catch.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f symengine/utilities/catch/CMakeFiles/catch.dir/build.make symengine/utilities/catch/CMakeFiles/catch.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 33%] Building CXX object symengine/utilities/catch/CMakeFiles/catch.dir/catch.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/catch.dir/catch.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch/catch.cpp
+[ 34%] Linking CXX static library libcatch.a
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch && /usr/bin/cmake -P CMakeFiles/catch.dir/cmake_clean_target.cmake
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch && /usr/bin/cmake -E cmake_link_script CMakeFiles/catch.dir/link.txt --verbose=1
+/usr/bin/ar qc libcatch.a  CMakeFiles/catch.dir/catch.cpp.o
+/usr/bin/ranlib libcatch.a
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 34%] Built target catch
+make -f symengine/tests/rcp/CMakeFiles/test_rcp.dir/build.make symengine/tests/rcp/CMakeFiles/test_rcp.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/rcp /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/rcp /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/rcp/CMakeFiles/test_rcp.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f symengine/tests/rcp/CMakeFiles/test_rcp.dir/build.make symengine/tests/rcp/CMakeFiles/test_rcp.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 34%] Building CXX object symengine/tests/rcp/CMakeFiles/test_rcp.dir/test_rcp.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/rcp && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/test_rcp.dir/test_rcp.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/rcp/test_rcp.cpp
+[ 35%] Linking CXX executable test_rcp
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/rcp && /usr/bin/cmake -E cmake_link_script CMakeFiles/test_rcp.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/test_rcp.dir/test_rcp.cpp.o  -o test_rcp -rdynamic ../../libsymengine.a ../../utilities/catch/libcatch.a ../../libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 35%] Built target test_rcp
+make -f symengine/tests/basic/CMakeFiles/test_as_real_imag.dir/build.make symengine/tests/basic/CMakeFiles/test_as_real_imag.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic/CMakeFiles/test_as_real_imag.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f symengine/tests/basic/CMakeFiles/test_as_real_imag.dir/build.make symengine/tests/basic/CMakeFiles/test_as_real_imag.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 35%] Building CXX object symengine/tests/basic/CMakeFiles/test_as_real_imag.dir/test_as_real_imag.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/test_as_real_imag.dir/test_as_real_imag.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic/test_as_real_imag.cpp
+[ 36%] Linking CXX executable test_as_real_imag
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic && /usr/bin/cmake -E cmake_link_script CMakeFiles/test_as_real_imag.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/test_as_real_imag.dir/test_as_real_imag.cpp.o  -o test_as_real_imag -rdynamic ../../libsymengine.a ../../utilities/catch/libcatch.a ../../libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 36%] Built target test_as_real_imag
+make -f symengine/tests/basic/CMakeFiles/test_solve.dir/build.make symengine/tests/basic/CMakeFiles/test_solve.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic/CMakeFiles/test_solve.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f symengine/tests/basic/CMakeFiles/test_solve.dir/build.make symengine/tests/basic/CMakeFiles/test_solve.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 37%] Building CXX object symengine/tests/basic/CMakeFiles/test_solve.dir/test_solve.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/test_solve.dir/test_solve.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic/test_solve.cpp
+[ 37%] Linking CXX executable test_solve
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic && /usr/bin/cmake -E cmake_link_script CMakeFiles/test_solve.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/test_solve.dir/test_solve.cpp.o  -o test_solve -rdynamic ../../libsymengine.a ../../utilities/catch/libcatch.a ../../libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 37%] Built target test_solve
+make -f symengine/tests/basic/CMakeFiles/test_series_generic.dir/build.make symengine/tests/basic/CMakeFiles/test_series_generic.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic/CMakeFiles/test_series_generic.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f symengine/tests/basic/CMakeFiles/test_series_generic.dir/build.make symengine/tests/basic/CMakeFiles/test_series_generic.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 38%] Building CXX object symengine/tests/basic/CMakeFiles/test_series_generic.dir/test_series_generic.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/test_series_generic.dir/test_series_generic.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic/test_series_generic.cpp
+[ 38%] Linking CXX executable test_series_generic
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic && /usr/bin/cmake -E cmake_link_script CMakeFiles/test_series_generic.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/test_series_generic.dir/test_series_generic.cpp.o  -o test_series_generic -rdynamic ../../libsymengine.a ../../utilities/catch/libcatch.a ../../libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 38%] Built target test_series_generic
+make -f symengine/tests/basic/CMakeFiles/test_functions.dir/build.make symengine/tests/basic/CMakeFiles/test_functions.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic/CMakeFiles/test_functions.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f symengine/tests/basic/CMakeFiles/test_functions.dir/build.make symengine/tests/basic/CMakeFiles/test_functions.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 38%] Building CXX object symengine/tests/basic/CMakeFiles/test_functions.dir/test_functions.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/test_functions.dir/test_functions.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic/test_functions.cpp
+[ 39%] Linking CXX executable test_functions
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic && /usr/bin/cmake -E cmake_link_script CMakeFiles/test_functions.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/test_functions.dir/test_functions.cpp.o  -o test_functions -rdynamic ../../libsymengine.a ../../utilities/catch/libcatch.a ../../libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 39%] Built target test_functions
+make -f symengine/tests/basic/CMakeFiles/test_basic.dir/build.make symengine/tests/basic/CMakeFiles/test_basic.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic/CMakeFiles/test_basic.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f symengine/tests/basic/CMakeFiles/test_basic.dir/build.make symengine/tests/basic/CMakeFiles/test_basic.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 39%] Building CXX object symengine/tests/basic/CMakeFiles/test_basic.dir/test_basic.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/test_basic.dir/test_basic.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic/test_basic.cpp
+[ 40%] Linking CXX executable test_basic
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic && /usr/bin/cmake -E cmake_link_script CMakeFiles/test_basic.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/test_basic.dir/test_basic.cpp.o  -o test_basic -rdynamic ../../libsymengine.a ../../utilities/catch/libcatch.a ../../libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 40%] Built target test_basic
+make -f symengine/tests/basic/CMakeFiles/test_poly.dir/build.make symengine/tests/basic/CMakeFiles/test_poly.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic/CMakeFiles/test_poly.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f symengine/tests/basic/CMakeFiles/test_poly.dir/build.make symengine/tests/basic/CMakeFiles/test_poly.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 40%] Building CXX object symengine/tests/basic/CMakeFiles/test_poly.dir/test_poly.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/test_poly.dir/test_poly.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic/test_poly.cpp
+[ 41%] Linking CXX executable test_poly
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic && /usr/bin/cmake -E cmake_link_script CMakeFiles/test_poly.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/test_poly.dir/test_poly.cpp.o  -o test_poly -rdynamic ../../libsymengine.a ../../utilities/catch/libcatch.a ../../libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 41%] Built target test_poly
+make -f symengine/tests/basic/CMakeFiles/test_series.dir/build.make symengine/tests/basic/CMakeFiles/test_series.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic/CMakeFiles/test_series.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f symengine/tests/basic/CMakeFiles/test_series.dir/build.make symengine/tests/basic/CMakeFiles/test_series.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 41%] Building CXX object symengine/tests/basic/CMakeFiles/test_series.dir/test_series.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/test_series.dir/test_series.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic/test_series.cpp
+[ 42%] Linking CXX executable test_series
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic && /usr/bin/cmake -E cmake_link_script CMakeFiles/test_series.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/test_series.dir/test_series.cpp.o  -o test_series -rdynamic ../../libsymengine.a ../../utilities/catch/libcatch.a ../../libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 42%] Built target test_series
+make -f symengine/tests/basic/CMakeFiles/test_arit.dir/build.make symengine/tests/basic/CMakeFiles/test_arit.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic/CMakeFiles/test_arit.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f symengine/tests/basic/CMakeFiles/test_arit.dir/build.make symengine/tests/basic/CMakeFiles/test_arit.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 42%] Building CXX object symengine/tests/basic/CMakeFiles/test_arit.dir/test_arit.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/test_arit.dir/test_arit.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic/test_arit.cpp
+[ 43%] Linking CXX executable test_arit
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic && /usr/bin/cmake -E cmake_link_script CMakeFiles/test_arit.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/test_arit.dir/test_arit.cpp.o  -o test_arit -rdynamic ../../libsymengine.a ../../utilities/catch/libcatch.a ../../libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 43%] Built target test_arit
+make -f symengine/tests/basic/CMakeFiles/test_nan.dir/build.make symengine/tests/basic/CMakeFiles/test_nan.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic/CMakeFiles/test_nan.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f symengine/tests/basic/CMakeFiles/test_nan.dir/build.make symengine/tests/basic/CMakeFiles/test_nan.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 44%] Building CXX object symengine/tests/basic/CMakeFiles/test_nan.dir/test_nan.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/test_nan.dir/test_nan.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic/test_nan.cpp
+[ 44%] Linking CXX executable test_nan
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic && /usr/bin/cmake -E cmake_link_script CMakeFiles/test_nan.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/test_nan.dir/test_nan.cpp.o  -o test_nan -rdynamic ../../libsymengine.a ../../utilities/catch/libcatch.a ../../libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 44%] Built target test_nan
+make -f symengine/tests/basic/CMakeFiles/test_rational.dir/build.make symengine/tests/basic/CMakeFiles/test_rational.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic/CMakeFiles/test_rational.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f symengine/tests/basic/CMakeFiles/test_rational.dir/build.make symengine/tests/basic/CMakeFiles/test_rational.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 44%] Building CXX object symengine/tests/basic/CMakeFiles/test_rational.dir/test_rational.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/test_rational.dir/test_rational.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic/test_rational.cpp
+[ 45%] Linking CXX executable test_rational
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic && /usr/bin/cmake -E cmake_link_script CMakeFiles/test_rational.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/test_rational.dir/test_rational.cpp.o  -o test_rational -rdynamic ../../libsymengine.a ../../utilities/catch/libcatch.a ../../libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 45%] Built target test_rational
+make -f symengine/tests/basic/CMakeFiles/test_count_ops.dir/build.make symengine/tests/basic/CMakeFiles/test_count_ops.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic/CMakeFiles/test_count_ops.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f symengine/tests/basic/CMakeFiles/test_count_ops.dir/build.make symengine/tests/basic/CMakeFiles/test_count_ops.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 46%] Building CXX object symengine/tests/basic/CMakeFiles/test_count_ops.dir/test_count_ops.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/test_count_ops.dir/test_count_ops.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic/test_count_ops.cpp
+[ 46%] Linking CXX executable test_count_ops
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic && /usr/bin/cmake -E cmake_link_script CMakeFiles/test_count_ops.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/test_count_ops.dir/test_count_ops.cpp.o  -o test_count_ops -rdynamic ../../libsymengine.a ../../utilities/catch/libcatch.a ../../libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 46%] Built target test_count_ops
+make -f symengine/tests/basic/CMakeFiles/test_integer.dir/build.make symengine/tests/basic/CMakeFiles/test_integer.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic/CMakeFiles/test_integer.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f symengine/tests/basic/CMakeFiles/test_integer.dir/build.make symengine/tests/basic/CMakeFiles/test_integer.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 46%] Building CXX object symengine/tests/basic/CMakeFiles/test_integer.dir/test_integer.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/test_integer.dir/test_integer.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic/test_integer.cpp
+[ 47%] Linking CXX executable test_integer
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic && /usr/bin/cmake -E cmake_link_script CMakeFiles/test_integer.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/test_integer.dir/test_integer.cpp.o  -o test_integer -rdynamic ../../libsymengine.a ../../utilities/catch/libcatch.a ../../libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 47%] Built target test_integer
+make -f symengine/tests/basic/CMakeFiles/test_sets.dir/build.make symengine/tests/basic/CMakeFiles/test_sets.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic/CMakeFiles/test_sets.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f symengine/tests/basic/CMakeFiles/test_sets.dir/build.make symengine/tests/basic/CMakeFiles/test_sets.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 48%] Building CXX object symengine/tests/basic/CMakeFiles/test_sets.dir/test_sets.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/test_sets.dir/test_sets.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic/test_sets.cpp
+[ 48%] Linking CXX executable test_sets
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic && /usr/bin/cmake -E cmake_link_script CMakeFiles/test_sets.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/test_sets.dir/test_sets.cpp.o  -o test_sets -rdynamic ../../libsymengine.a ../../utilities/catch/libcatch.a ../../libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 48%] Built target test_sets
+make -f symengine/tests/basic/CMakeFiles/test_relationals.dir/build.make symengine/tests/basic/CMakeFiles/test_relationals.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic/CMakeFiles/test_relationals.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f symengine/tests/basic/CMakeFiles/test_relationals.dir/build.make symengine/tests/basic/CMakeFiles/test_relationals.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 48%] Building CXX object symengine/tests/basic/CMakeFiles/test_relationals.dir/test_relationals.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/test_relationals.dir/test_relationals.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic/test_relationals.cpp
+[ 50%] Linking CXX executable test_relationals
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic && /usr/bin/cmake -E cmake_link_script CMakeFiles/test_relationals.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/test_relationals.dir/test_relationals.cpp.o  -o test_relationals -rdynamic ../../libsymengine.a ../../utilities/catch/libcatch.a ../../libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 50%] Built target test_relationals
+make -f symengine/tests/basic/CMakeFiles/test_parser.dir/build.make symengine/tests/basic/CMakeFiles/test_parser.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic/CMakeFiles/test_parser.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f symengine/tests/basic/CMakeFiles/test_parser.dir/build.make symengine/tests/basic/CMakeFiles/test_parser.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 50%] Building CXX object symengine/tests/basic/CMakeFiles/test_parser.dir/test_parser.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/test_parser.dir/test_parser.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic/test_parser.cpp
+[ 51%] Linking CXX executable test_parser
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic && /usr/bin/cmake -E cmake_link_script CMakeFiles/test_parser.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/test_parser.dir/test_parser.cpp.o  -o test_parser -rdynamic ../../libsymengine.a ../../utilities/catch/libcatch.a ../../libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 51%] Built target test_parser
+make -f symengine/tests/basic/CMakeFiles/test_subs.dir/build.make symengine/tests/basic/CMakeFiles/test_subs.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic/CMakeFiles/test_subs.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f symengine/tests/basic/CMakeFiles/test_subs.dir/build.make symengine/tests/basic/CMakeFiles/test_subs.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 52%] Building CXX object symengine/tests/basic/CMakeFiles/test_subs.dir/test_subs.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/test_subs.dir/test_subs.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic/test_subs.cpp
+[ 52%] Linking CXX executable test_subs
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic && /usr/bin/cmake -E cmake_link_script CMakeFiles/test_subs.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/test_subs.dir/test_subs.cpp.o  -o test_subs -rdynamic ../../libsymengine.a ../../utilities/catch/libcatch.a ../../libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 52%] Built target test_subs
+make -f symengine/tests/basic/CMakeFiles/test_number.dir/build.make symengine/tests/basic/CMakeFiles/test_number.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic/CMakeFiles/test_number.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f symengine/tests/basic/CMakeFiles/test_number.dir/build.make symengine/tests/basic/CMakeFiles/test_number.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 53%] Building CXX object symengine/tests/basic/CMakeFiles/test_number.dir/test_number.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/test_number.dir/test_number.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic/test_number.cpp
+[ 54%] Linking CXX executable test_number
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic && /usr/bin/cmake -E cmake_link_script CMakeFiles/test_number.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/test_number.dir/test_number.cpp.o  -o test_number -rdynamic ../../libsymengine.a ../../utilities/catch/libcatch.a ../../libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 54%] Built target test_number
+make -f symengine/tests/basic/CMakeFiles/test_as_numer_denom.dir/build.make symengine/tests/basic/CMakeFiles/test_as_numer_denom.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic/CMakeFiles/test_as_numer_denom.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f symengine/tests/basic/CMakeFiles/test_as_numer_denom.dir/build.make symengine/tests/basic/CMakeFiles/test_as_numer_denom.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 54%] Building CXX object symengine/tests/basic/CMakeFiles/test_as_numer_denom.dir/test_as_numer_denom.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/test_as_numer_denom.dir/test_as_numer_denom.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic/test_as_numer_denom.cpp
+[ 55%] Linking CXX executable test_as_numer_denom
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic && /usr/bin/cmake -E cmake_link_script CMakeFiles/test_as_numer_denom.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/test_as_numer_denom.dir/test_as_numer_denom.cpp.o  -o test_as_numer_denom -rdynamic ../../libsymengine.a ../../utilities/catch/libcatch.a ../../libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 55%] Built target test_as_numer_denom
+make -f symengine/tests/basic/CMakeFiles/test_cse.dir/build.make symengine/tests/basic/CMakeFiles/test_cse.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic/CMakeFiles/test_cse.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f symengine/tests/basic/CMakeFiles/test_cse.dir/build.make symengine/tests/basic/CMakeFiles/test_cse.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 56%] Building CXX object symengine/tests/basic/CMakeFiles/test_cse.dir/test_cse.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/test_cse.dir/test_cse.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic/test_cse.cpp
+[ 56%] Linking CXX executable test_cse
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic && /usr/bin/cmake -E cmake_link_script CMakeFiles/test_cse.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/test_cse.dir/test_cse.cpp.o  -o test_cse -rdynamic ../../libsymengine.a ../../utilities/catch/libcatch.a ../../libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 56%] Built target test_cse
+make -f symengine/tests/basic/CMakeFiles/test_fields.dir/build.make symengine/tests/basic/CMakeFiles/test_fields.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic/CMakeFiles/test_fields.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f symengine/tests/basic/CMakeFiles/test_fields.dir/build.make symengine/tests/basic/CMakeFiles/test_fields.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 56%] Building CXX object symengine/tests/basic/CMakeFiles/test_fields.dir/test_fields.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/test_fields.dir/test_fields.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic/test_fields.cpp
+[ 57%] Linking CXX executable test_fields
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic && /usr/bin/cmake -E cmake_link_script CMakeFiles/test_fields.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/test_fields.dir/test_fields.cpp.o  -o test_fields -rdynamic ../../libsymengine.a ../../utilities/catch/libcatch.a ../../libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 57%] Built target test_fields
+make -f symengine/tests/basic/CMakeFiles/test_infinity.dir/build.make symengine/tests/basic/CMakeFiles/test_infinity.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic/CMakeFiles/test_infinity.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f symengine/tests/basic/CMakeFiles/test_infinity.dir/build.make symengine/tests/basic/CMakeFiles/test_infinity.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 57%] Building CXX object symengine/tests/basic/CMakeFiles/test_infinity.dir/test_infinity.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/test_infinity.dir/test_infinity.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic/test_infinity.cpp
+[ 58%] Linking CXX executable test_infinity
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/basic && /usr/bin/cmake -E cmake_link_script CMakeFiles/test_infinity.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/test_infinity.dir/test_infinity.cpp.o  -o test_infinity -rdynamic ../../libsymengine.a ../../utilities/catch/libcatch.a ../../libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 58%] Built target test_infinity
+make -f symengine/tests/ntheory/CMakeFiles/test_diophantine.dir/build.make symengine/tests/ntheory/CMakeFiles/test_diophantine.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/ntheory /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/ntheory /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/ntheory/CMakeFiles/test_diophantine.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f symengine/tests/ntheory/CMakeFiles/test_diophantine.dir/build.make symengine/tests/ntheory/CMakeFiles/test_diophantine.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 59%] Building CXX object symengine/tests/ntheory/CMakeFiles/test_diophantine.dir/test_diophantine.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/ntheory && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/test_diophantine.dir/test_diophantine.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/ntheory/test_diophantine.cpp
+[ 59%] Linking CXX executable test_diophantine
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/ntheory && /usr/bin/cmake -E cmake_link_script CMakeFiles/test_diophantine.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/test_diophantine.dir/test_diophantine.cpp.o  -o test_diophantine -rdynamic ../../libsymengine.a ../../utilities/catch/libcatch.a ../../libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 59%] Built target test_diophantine
+make -f symengine/tests/ntheory/CMakeFiles/test_ntheory.dir/build.make symengine/tests/ntheory/CMakeFiles/test_ntheory.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/ntheory /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/ntheory /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/ntheory/CMakeFiles/test_ntheory.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f symengine/tests/ntheory/CMakeFiles/test_ntheory.dir/build.make symengine/tests/ntheory/CMakeFiles/test_ntheory.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 60%] Building CXX object symengine/tests/ntheory/CMakeFiles/test_ntheory.dir/test_ntheory.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/ntheory && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/test_ntheory.dir/test_ntheory.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/ntheory/test_ntheory.cpp
+[ 60%] Linking CXX executable test_ntheory
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/ntheory && /usr/bin/cmake -E cmake_link_script CMakeFiles/test_ntheory.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/test_ntheory.dir/test_ntheory.cpp.o  -o test_ntheory -rdynamic ../../libsymengine.a ../../utilities/catch/libcatch.a ../../libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 60%] Built target test_ntheory
+make -f symengine/tests/matrix/CMakeFiles/test_matrix.dir/build.make symengine/tests/matrix/CMakeFiles/test_matrix.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/matrix /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/matrix /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/matrix/CMakeFiles/test_matrix.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f symengine/tests/matrix/CMakeFiles/test_matrix.dir/build.make symengine/tests/matrix/CMakeFiles/test_matrix.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 61%] Building CXX object symengine/tests/matrix/CMakeFiles/test_matrix.dir/test_matrix.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/matrix && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/test_matrix.dir/test_matrix.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/matrix/test_matrix.cpp
+[ 61%] Linking CXX executable test_matrix
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/matrix && /usr/bin/cmake -E cmake_link_script CMakeFiles/test_matrix.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/test_matrix.dir/test_matrix.cpp.o  -o test_matrix -rdynamic ../../libsymengine.a ../../utilities/catch/libcatch.a ../../libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 61%] Built target test_matrix
+make -f symengine/tests/printing/CMakeFiles/test_ccode.dir/build.make symengine/tests/printing/CMakeFiles/test_ccode.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/printing /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/printing /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/printing/CMakeFiles/test_ccode.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f symengine/tests/printing/CMakeFiles/test_ccode.dir/build.make symengine/tests/printing/CMakeFiles/test_ccode.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 62%] Building CXX object symengine/tests/printing/CMakeFiles/test_ccode.dir/test_ccode.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/printing && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/test_ccode.dir/test_ccode.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/printing/test_ccode.cpp
+[ 62%] Linking CXX executable test_ccode
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/printing && /usr/bin/cmake -E cmake_link_script CMakeFiles/test_ccode.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/test_ccode.dir/test_ccode.cpp.o  -o test_ccode -rdynamic ../../libsymengine.a ../../utilities/catch/libcatch.a ../../libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 62%] Built target test_ccode
+make -f symengine/tests/printing/CMakeFiles/test_printing.dir/build.make symengine/tests/printing/CMakeFiles/test_printing.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/printing /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/printing /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/printing/CMakeFiles/test_printing.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f symengine/tests/printing/CMakeFiles/test_printing.dir/build.make symengine/tests/printing/CMakeFiles/test_printing.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 62%] Building CXX object symengine/tests/printing/CMakeFiles/test_printing.dir/test_printing.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/printing && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/test_printing.dir/test_printing.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/printing/test_printing.cpp
+[ 63%] Linking CXX executable test_printing
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/printing && /usr/bin/cmake -E cmake_link_script CMakeFiles/test_printing.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/test_printing.dir/test_printing.cpp.o  -o test_printing -rdynamic ../../libsymengine.a ../../utilities/catch/libcatch.a ../../libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 63%] Built target test_printing
+make -f symengine/tests/polynomial/CMakeFiles/test_uratpoly.dir/build.make symengine/tests/polynomial/CMakeFiles/test_uratpoly.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/polynomial /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/polynomial /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/polynomial/CMakeFiles/test_uratpoly.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f symengine/tests/polynomial/CMakeFiles/test_uratpoly.dir/build.make symengine/tests/polynomial/CMakeFiles/test_uratpoly.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 64%] Building CXX object symengine/tests/polynomial/CMakeFiles/test_uratpoly.dir/test_uratpoly.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/polynomial && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/test_uratpoly.dir/test_uratpoly.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/polynomial/test_uratpoly.cpp
+[ 65%] Linking CXX executable test_uratpoly
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/polynomial && /usr/bin/cmake -E cmake_link_script CMakeFiles/test_uratpoly.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/test_uratpoly.dir/test_uratpoly.cpp.o  -o test_uratpoly -rdynamic ../../libsymengine.a ../../utilities/catch/libcatch.a ../../libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 65%] Built target test_uratpoly
+make -f symengine/tests/polynomial/CMakeFiles/test_uintpoly.dir/build.make symengine/tests/polynomial/CMakeFiles/test_uintpoly.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/polynomial /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/polynomial /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/polynomial/CMakeFiles/test_uintpoly.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f symengine/tests/polynomial/CMakeFiles/test_uintpoly.dir/build.make symengine/tests/polynomial/CMakeFiles/test_uintpoly.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 66%] Building CXX object symengine/tests/polynomial/CMakeFiles/test_uintpoly.dir/test_uintpoly.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/polynomial && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/test_uintpoly.dir/test_uintpoly.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/polynomial/test_uintpoly.cpp
+[ 66%] Linking CXX executable test_uintpoly
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/polynomial && /usr/bin/cmake -E cmake_link_script CMakeFiles/test_uintpoly.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/test_uintpoly.dir/test_uintpoly.cpp.o  -o test_uintpoly -rdynamic ../../libsymengine.a ../../utilities/catch/libcatch.a ../../libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 66%] Built target test_uintpoly
+make -f symengine/tests/polynomial/CMakeFiles/test_uexprpoly.dir/build.make symengine/tests/polynomial/CMakeFiles/test_uexprpoly.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/polynomial /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/polynomial /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/polynomial/CMakeFiles/test_uexprpoly.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f symengine/tests/polynomial/CMakeFiles/test_uexprpoly.dir/build.make symengine/tests/polynomial/CMakeFiles/test_uexprpoly.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 67%] Building CXX object symengine/tests/polynomial/CMakeFiles/test_uexprpoly.dir/test_uexprpoly.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/polynomial && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/test_uexprpoly.dir/test_uexprpoly.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/polynomial/test_uexprpoly.cpp
+[ 67%] Linking CXX executable test_uexprpoly
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/polynomial && /usr/bin/cmake -E cmake_link_script CMakeFiles/test_uexprpoly.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/test_uexprpoly.dir/test_uexprpoly.cpp.o  -o test_uexprpoly -rdynamic ../../libsymengine.a ../../utilities/catch/libcatch.a ../../libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 67%] Built target test_uexprpoly
+make -f symengine/tests/polynomial/CMakeFiles/test_basic_conversions.dir/build.make symengine/tests/polynomial/CMakeFiles/test_basic_conversions.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/polynomial /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/polynomial /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/polynomial/CMakeFiles/test_basic_conversions.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f symengine/tests/polynomial/CMakeFiles/test_basic_conversions.dir/build.make symengine/tests/polynomial/CMakeFiles/test_basic_conversions.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 68%] Building CXX object symengine/tests/polynomial/CMakeFiles/test_basic_conversions.dir/test_basic_conversions.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/polynomial && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/test_basic_conversions.dir/test_basic_conversions.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/polynomial/test_basic_conversions.cpp
+[ 68%] Linking CXX executable test_basic_conversions
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/polynomial && /usr/bin/cmake -E cmake_link_script CMakeFiles/test_basic_conversions.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/test_basic_conversions.dir/test_basic_conversions.cpp.o  -o test_basic_conversions -rdynamic ../../libsymengine.a ../../utilities/catch/libcatch.a ../../libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 68%] Built target test_basic_conversions
+make -f symengine/tests/polynomial/CMakeFiles/test_mintpoly.dir/build.make symengine/tests/polynomial/CMakeFiles/test_mintpoly.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/polynomial /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/polynomial /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/polynomial/CMakeFiles/test_mintpoly.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f symengine/tests/polynomial/CMakeFiles/test_mintpoly.dir/build.make symengine/tests/polynomial/CMakeFiles/test_mintpoly.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 69%] Building CXX object symengine/tests/polynomial/CMakeFiles/test_mintpoly.dir/test_mintpoly.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/polynomial && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/test_mintpoly.dir/test_mintpoly.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/polynomial/test_mintpoly.cpp
+[ 69%] Linking CXX executable test_mintpoly
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/polynomial && /usr/bin/cmake -E cmake_link_script CMakeFiles/test_mintpoly.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/test_mintpoly.dir/test_mintpoly.cpp.o  -o test_mintpoly -rdynamic ../../libsymengine.a ../../utilities/catch/libcatch.a ../../libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 69%] Built target test_mintpoly
+make -f symengine/tests/polynomial/CMakeFiles/test_mexprpoly.dir/build.make symengine/tests/polynomial/CMakeFiles/test_mexprpoly.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/polynomial /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/polynomial /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/polynomial/CMakeFiles/test_mexprpoly.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f symengine/tests/polynomial/CMakeFiles/test_mexprpoly.dir/build.make symengine/tests/polynomial/CMakeFiles/test_mexprpoly.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 70%] Building CXX object symengine/tests/polynomial/CMakeFiles/test_mexprpoly.dir/test_mexprpoly.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/polynomial && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/test_mexprpoly.dir/test_mexprpoly.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/polynomial/test_mexprpoly.cpp
+[ 70%] Linking CXX executable test_mexprpoly
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/polynomial && /usr/bin/cmake -E cmake_link_script CMakeFiles/test_mexprpoly.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/test_mexprpoly.dir/test_mexprpoly.cpp.o  -o test_mexprpoly -rdynamic ../../libsymengine.a ../../utilities/catch/libcatch.a ../../libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 70%] Built target test_mexprpoly
+make -f symengine/tests/eval/CMakeFiles/test_eval_double.dir/build.make symengine/tests/eval/CMakeFiles/test_eval_double.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/eval /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/eval /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/eval/CMakeFiles/test_eval_double.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f symengine/tests/eval/CMakeFiles/test_eval_double.dir/build.make symengine/tests/eval/CMakeFiles/test_eval_double.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 71%] Building CXX object symengine/tests/eval/CMakeFiles/test_eval_double.dir/test_eval_double.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/eval && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/test_eval_double.dir/test_eval_double.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/eval/test_eval_double.cpp
+[ 71%] Linking CXX executable test_eval_double
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/eval && /usr/bin/cmake -E cmake_link_script CMakeFiles/test_eval_double.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/test_eval_double.dir/test_eval_double.cpp.o  -o test_eval_double -rdynamic ../../libsymengine.a ../../utilities/catch/libcatch.a ../../libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 71%] Built target test_eval_double
+make -f symengine/tests/eval/CMakeFiles/test_evalf.dir/build.make symengine/tests/eval/CMakeFiles/test_evalf.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/eval /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/eval /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/eval/CMakeFiles/test_evalf.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f symengine/tests/eval/CMakeFiles/test_evalf.dir/build.make symengine/tests/eval/CMakeFiles/test_evalf.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 72%] Building CXX object symengine/tests/eval/CMakeFiles/test_evalf.dir/test_evalf.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/eval && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/test_evalf.dir/test_evalf.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/eval/test_evalf.cpp
+[ 73%] Linking CXX executable test_evalf
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/eval && /usr/bin/cmake -E cmake_link_script CMakeFiles/test_evalf.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/test_evalf.dir/test_evalf.cpp.o  -o test_evalf -rdynamic ../../libsymengine.a ../../utilities/catch/libcatch.a ../../libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 73%] Built target test_evalf
+make -f symengine/tests/eval/CMakeFiles/test_lambda_double.dir/build.make symengine/tests/eval/CMakeFiles/test_lambda_double.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/eval /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/eval /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/eval/CMakeFiles/test_lambda_double.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f symengine/tests/eval/CMakeFiles/test_lambda_double.dir/build.make symengine/tests/eval/CMakeFiles/test_lambda_double.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 75%] Building CXX object symengine/tests/eval/CMakeFiles/test_lambda_double.dir/test_lambda_double.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/eval && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/test_lambda_double.dir/test_lambda_double.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/eval/test_lambda_double.cpp
+[ 75%] Linking CXX executable test_lambda_double
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/eval && /usr/bin/cmake -E cmake_link_script CMakeFiles/test_lambda_double.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/test_lambda_double.dir/test_lambda_double.cpp.o  -o test_lambda_double -rdynamic ../../libsymengine.a ../../utilities/catch/libcatch.a ../../libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 75%] Built target test_lambda_double
+make -f symengine/tests/cwrapper/CMakeFiles/test_cwrapper.dir/build.make symengine/tests/cwrapper/CMakeFiles/test_cwrapper.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/cwrapper /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/cwrapper /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/cwrapper/CMakeFiles/test_cwrapper.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f symengine/tests/cwrapper/CMakeFiles/test_cwrapper.dir/build.make symengine/tests/cwrapper/CMakeFiles/test_cwrapper.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 76%] Building C object symengine/tests/cwrapper/CMakeFiles/test_cwrapper.dir/test_cwrapper.c.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/cwrapper && /usr/bin/cc   -I/home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -O3 -DNDEBUG   -o CMakeFiles/test_cwrapper.dir/test_cwrapper.c.o   -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/cwrapper/test_cwrapper.c
+[ 76%] Linking CXX executable test_cwrapper
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/cwrapper && /usr/bin/cmake -E cmake_link_script CMakeFiles/test_cwrapper.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/test_cwrapper.dir/test_cwrapper.c.o  -o test_cwrapper -rdynamic ../../libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 76%] Built target test_cwrapper
+make -f symengine/tests/expression/CMakeFiles/test_expression.dir/build.make symengine/tests/expression/CMakeFiles/test_expression.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/expression /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/expression /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/expression/CMakeFiles/test_expression.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f symengine/tests/expression/CMakeFiles/test_expression.dir/build.make symengine/tests/expression/CMakeFiles/test_expression.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 76%] Building CXX object symengine/tests/expression/CMakeFiles/test_expression.dir/test_expression.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/expression && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/test_expression.dir/test_expression.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/expression/test_expression.cpp
+[ 77%] Linking CXX executable test_expression
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/expression && /usr/bin/cmake -E cmake_link_script CMakeFiles/test_expression.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/test_expression.dir/test_expression.cpp.o  -o test_expression -rdynamic ../../libsymengine.a ../../utilities/catch/libcatch.a ../../libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 77%] Built target test_expression
+make -f symengine/tests/logic/CMakeFiles/test_logic.dir/build.make symengine/tests/logic/CMakeFiles/test_logic.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/logic /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/logic /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/logic/CMakeFiles/test_logic.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f symengine/tests/logic/CMakeFiles/test_logic.dir/build.make symengine/tests/logic/CMakeFiles/test_logic.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 78%] Building CXX object symengine/tests/logic/CMakeFiles/test_logic.dir/test_logic.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/logic && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/test_logic.dir/test_logic.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/logic/test_logic.cpp
+[ 78%] Linking CXX executable test_logic
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/logic && /usr/bin/cmake -E cmake_link_script CMakeFiles/test_logic.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/test_logic.dir/test_logic.cpp.o  -o test_logic -rdynamic ../../libsymengine.a ../../utilities/catch/libcatch.a ../../libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 78%] Built target test_logic
+make -f symengine/tests/finitediff/CMakeFiles/test_finitediff.dir/build.make symengine/tests/finitediff/CMakeFiles/test_finitediff.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/finitediff /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/finitediff /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/finitediff/CMakeFiles/test_finitediff.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f symengine/tests/finitediff/CMakeFiles/test_finitediff.dir/build.make symengine/tests/finitediff/CMakeFiles/test_finitediff.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 78%] Building CXX object symengine/tests/finitediff/CMakeFiles/test_finitediff.dir/test_finitediff.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/finitediff && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/utilities/catch -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/test_finitediff.dir/test_finitediff.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/finitediff/test_finitediff.cpp
+[ 79%] Linking CXX executable test_finitediff
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/symengine/tests/finitediff && /usr/bin/cmake -E cmake_link_script CMakeFiles/test_finitediff.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/test_finitediff.dir/test_finitediff.cpp.o  -o test_finitediff -rdynamic ../../libsymengine.a ../../utilities/catch/libcatch.a ../../libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 79%] Built target test_finitediff
+make -f benchmarks/CMakeFiles/parsing.dir/build.make benchmarks/CMakeFiles/parsing.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks/CMakeFiles/parsing.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f benchmarks/CMakeFiles/parsing.dir/build.make benchmarks/CMakeFiles/parsing.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 80%] Building CXX object benchmarks/CMakeFiles/parsing.dir/parsing.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/parsing.dir/parsing.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks/parsing.cpp
+[ 80%] Linking CXX executable parsing
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks && /usr/bin/cmake -E cmake_link_script CMakeFiles/parsing.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/parsing.dir/parsing.cpp.o  -o parsing -rdynamic ../symengine/libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 80%] Built target parsing
+make -f benchmarks/CMakeFiles/symengine_bench.dir/build.make benchmarks/CMakeFiles/symengine_bench.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks/CMakeFiles/symengine_bench.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f benchmarks/CMakeFiles/symengine_bench.dir/build.make benchmarks/CMakeFiles/symengine_bench.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 80%] Building CXX object benchmarks/CMakeFiles/symengine_bench.dir/symengine_bench.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/symengine_bench.dir/symengine_bench.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks/symengine_bench.cpp
+[ 81%] Linking CXX executable symengine_bench
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks && /usr/bin/cmake -E cmake_link_script CMakeFiles/symengine_bench.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/symengine_bench.dir/symengine_bench.cpp.o  -o symengine_bench -rdynamic ../symengine/libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 81%] Built target symengine_bench
+make -f benchmarks/CMakeFiles/expand3.dir/build.make benchmarks/CMakeFiles/expand3.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks/CMakeFiles/expand3.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f benchmarks/CMakeFiles/expand3.dir/build.make benchmarks/CMakeFiles/expand3.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 82%] Building CXX object benchmarks/CMakeFiles/expand3.dir/expand3.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/expand3.dir/expand3.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks/expand3.cpp
+[ 83%] Linking CXX executable expand3
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks && /usr/bin/cmake -E cmake_link_script CMakeFiles/expand3.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/expand3.dir/expand3.cpp.o  -o expand3 -rdynamic ../symengine/libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 83%] Built target expand3
+make -f benchmarks/CMakeFiles/expand2.dir/build.make benchmarks/CMakeFiles/expand2.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks/CMakeFiles/expand2.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f benchmarks/CMakeFiles/expand2.dir/build.make benchmarks/CMakeFiles/expand2.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 84%] Building CXX object benchmarks/CMakeFiles/expand2.dir/expand2.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/expand2.dir/expand2.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks/expand2.cpp
+[ 84%] Linking CXX executable expand2
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks && /usr/bin/cmake -E cmake_link_script CMakeFiles/expand2.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/expand2.dir/expand2.cpp.o  -o expand2 -rdynamic ../symengine/libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 84%] Built target expand2
+make -f benchmarks/CMakeFiles/ntheorybench.dir/build.make benchmarks/CMakeFiles/ntheorybench.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks/CMakeFiles/ntheorybench.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f benchmarks/CMakeFiles/ntheorybench.dir/build.make benchmarks/CMakeFiles/ntheorybench.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 85%] Building CXX object benchmarks/CMakeFiles/ntheorybench.dir/ntheorybench.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/ntheorybench.dir/ntheorybench.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks/ntheorybench.cpp
+[ 85%] Linking CXX executable ntheorybench
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks && /usr/bin/cmake -E cmake_link_script CMakeFiles/ntheorybench.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/ntheorybench.dir/ntheorybench.cpp.o  -o ntheorybench -rdynamic ../symengine/libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 85%] Built target ntheorybench
+make -f benchmarks/CMakeFiles/eval_double1.dir/build.make benchmarks/CMakeFiles/eval_double1.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks/CMakeFiles/eval_double1.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f benchmarks/CMakeFiles/eval_double1.dir/build.make benchmarks/CMakeFiles/eval_double1.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 86%] Building CXX object benchmarks/CMakeFiles/eval_double1.dir/eval_double1.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/eval_double1.dir/eval_double1.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks/eval_double1.cpp
+[ 86%] Linking CXX executable eval_double1
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks && /usr/bin/cmake -E cmake_link_script CMakeFiles/eval_double1.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/eval_double1.dir/eval_double1.cpp.o  -o eval_double1 -rdynamic ../symengine/libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 86%] Built target eval_double1
+make -f benchmarks/CMakeFiles/add1.dir/build.make benchmarks/CMakeFiles/add1.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks/CMakeFiles/add1.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f benchmarks/CMakeFiles/add1.dir/build.make benchmarks/CMakeFiles/add1.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 86%] Building CXX object benchmarks/CMakeFiles/add1.dir/add1.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/add1.dir/add1.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks/add1.cpp
+[ 87%] Linking CXX executable add1
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks && /usr/bin/cmake -E cmake_link_script CMakeFiles/add1.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/add1.dir/add1.cpp.o  -o add1 -rdynamic ../symengine/libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 87%] Built target add1
+make -f benchmarks/CMakeFiles/matrix_add1.dir/build.make benchmarks/CMakeFiles/matrix_add1.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks/CMakeFiles/matrix_add1.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f benchmarks/CMakeFiles/matrix_add1.dir/build.make benchmarks/CMakeFiles/matrix_add1.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 87%] Building CXX object benchmarks/CMakeFiles/matrix_add1.dir/matrix_add1.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/matrix_add1.dir/matrix_add1.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks/matrix_add1.cpp
+[ 88%] Linking CXX executable matrix_add1
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks && /usr/bin/cmake -E cmake_link_script CMakeFiles/matrix_add1.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/matrix_add1.dir/matrix_add1.cpp.o  -o matrix_add1 -rdynamic ../symengine/libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 88%] Built target matrix_add1
+make -f benchmarks/CMakeFiles/expand6b.dir/build.make benchmarks/CMakeFiles/expand6b.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks/CMakeFiles/expand6b.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f benchmarks/CMakeFiles/expand6b.dir/build.make benchmarks/CMakeFiles/expand6b.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 88%] Building CXX object benchmarks/CMakeFiles/expand6b.dir/expand6b.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/expand6b.dir/expand6b.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks/expand6b.cpp
+[ 89%] Linking CXX executable expand6b
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks && /usr/bin/cmake -E cmake_link_script CMakeFiles/expand6b.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/expand6b.dir/expand6b.cpp.o  -o expand6b -rdynamic ../symengine/libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 89%] Built target expand6b
+make -f benchmarks/CMakeFiles/expand2b.dir/build.make benchmarks/CMakeFiles/expand2b.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks/CMakeFiles/expand2b.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f benchmarks/CMakeFiles/expand2b.dir/build.make benchmarks/CMakeFiles/expand2b.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 90%] Building CXX object benchmarks/CMakeFiles/expand2b.dir/expand2b.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/expand2b.dir/expand2b.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks/expand2b.cpp
+[ 90%] Linking CXX executable expand2b
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks && /usr/bin/cmake -E cmake_link_script CMakeFiles/expand2b.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/expand2b.dir/expand2b.cpp.o  -o expand2b -rdynamic ../symengine/libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 90%] Built target expand2b
+make -f benchmarks/CMakeFiles/expand1.dir/build.make benchmarks/CMakeFiles/expand1.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks/CMakeFiles/expand1.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f benchmarks/CMakeFiles/expand1.dir/build.make benchmarks/CMakeFiles/expand1.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 91%] Building CXX object benchmarks/CMakeFiles/expand1.dir/expand1.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/expand1.dir/expand1.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks/expand1.cpp
+[ 91%] Linking CXX executable expand1
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks && /usr/bin/cmake -E cmake_link_script CMakeFiles/expand1.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/expand1.dir/expand1.cpp.o  -o expand1 -rdynamic ../symengine/libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 91%] Built target expand1
+make -f benchmarks/CMakeFiles/expand6.dir/build.make benchmarks/CMakeFiles/expand6.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks/CMakeFiles/expand6.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f benchmarks/CMakeFiles/expand6.dir/build.make benchmarks/CMakeFiles/expand6.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 91%] Building CXX object benchmarks/CMakeFiles/expand6.dir/expand6.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/expand6.dir/expand6.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks/expand6.cpp
+[ 92%] Linking CXX executable expand6
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks && /usr/bin/cmake -E cmake_link_script CMakeFiles/expand6.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/expand6.dir/expand6.cpp.o  -o expand6 -rdynamic ../symengine/libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 92%] Built target expand6
+make -f benchmarks/CMakeFiles/matrix_add2.dir/build.make benchmarks/CMakeFiles/matrix_add2.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks/CMakeFiles/matrix_add2.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f benchmarks/CMakeFiles/matrix_add2.dir/build.make benchmarks/CMakeFiles/matrix_add2.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 92%] Building CXX object benchmarks/CMakeFiles/matrix_add2.dir/matrix_add2.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/matrix_add2.dir/matrix_add2.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks/matrix_add2.cpp
+[ 93%] Linking CXX executable matrix_add2
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks && /usr/bin/cmake -E cmake_link_script CMakeFiles/matrix_add2.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/matrix_add2.dir/matrix_add2.cpp.o  -o matrix_add2 -rdynamic ../symengine/libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 93%] Built target matrix_add2
+make -f benchmarks/CMakeFiles/matrix_mul1.dir/build.make benchmarks/CMakeFiles/matrix_mul1.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks/CMakeFiles/matrix_mul1.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f benchmarks/CMakeFiles/matrix_mul1.dir/build.make benchmarks/CMakeFiles/matrix_mul1.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 93%] Building CXX object benchmarks/CMakeFiles/matrix_mul1.dir/matrix_mul1.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/matrix_mul1.dir/matrix_mul1.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks/matrix_mul1.cpp
+[ 94%] Linking CXX executable matrix_mul1
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks && /usr/bin/cmake -E cmake_link_script CMakeFiles/matrix_mul1.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/matrix_mul1.dir/matrix_mul1.cpp.o  -o matrix_mul1 -rdynamic ../symengine/libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 94%] Built target matrix_mul1
+make -f benchmarks/CMakeFiles/lwbench.dir/build.make benchmarks/CMakeFiles/lwbench.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks/CMakeFiles/lwbench.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f benchmarks/CMakeFiles/lwbench.dir/build.make benchmarks/CMakeFiles/lwbench.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 94%] Building CXX object benchmarks/CMakeFiles/lwbench.dir/lwbench.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/lwbench.dir/lwbench.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks/lwbench.cpp
+[ 95%] Linking CXX executable lwbench
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks && /usr/bin/cmake -E cmake_link_script CMakeFiles/lwbench.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/lwbench.dir/lwbench.cpp.o  -o lwbench -rdynamic ../symengine/libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 95%] Built target lwbench
+make -f benchmarks/CMakeFiles/series.dir/build.make benchmarks/CMakeFiles/series.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks/CMakeFiles/series.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f benchmarks/CMakeFiles/series.dir/build.make benchmarks/CMakeFiles/series.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 96%] Building CXX object benchmarks/CMakeFiles/series.dir/series.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/series.dir/series.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks/series.cpp
+[ 96%] Linking CXX executable series
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks && /usr/bin/cmake -E cmake_link_script CMakeFiles/series.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/series.dir/series.cpp.o  -o series -rdynamic ../symengine/libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 96%] Built target series
+make -f benchmarks/CMakeFiles/matrix_mul2.dir/build.make benchmarks/CMakeFiles/matrix_mul2.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks/CMakeFiles/matrix_mul2.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f benchmarks/CMakeFiles/matrix_mul2.dir/build.make benchmarks/CMakeFiles/matrix_mul2.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 97%] Building CXX object benchmarks/CMakeFiles/matrix_mul2.dir/matrix_mul2.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/matrix_mul2.dir/matrix_mul2.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks/matrix_mul2.cpp
+[ 97%] Linking CXX executable matrix_mul2
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks && /usr/bin/cmake -E cmake_link_script CMakeFiles/matrix_mul2.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/matrix_mul2.dir/matrix_mul2.cpp.o  -o matrix_mul2 -rdynamic ../symengine/libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 97%] Built target matrix_mul2
+make -f benchmarks/CMakeFiles/symbench.dir/build.make benchmarks/CMakeFiles/symbench.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks/CMakeFiles/symbench.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f benchmarks/CMakeFiles/symbench.dir/build.make benchmarks/CMakeFiles/symbench.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 98%] Building CXX object benchmarks/CMakeFiles/symbench.dir/symbench.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/symbench.dir/symbench.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks/symbench.cpp
+[ 98%] Linking CXX executable symbench
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks && /usr/bin/cmake -E cmake_link_script CMakeFiles/symbench.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/symbench.dir/symbench.cpp.o  -o symbench -rdynamic ../symengine/libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 98%] Built target symbench
+make -f benchmarks/CMakeFiles/expand7.dir/build.make benchmarks/CMakeFiles/expand7.dir/depend
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks /home/spandan/KGP/BTP/project_dependency_parser/symengine /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks/CMakeFiles/expand7.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+make -f benchmarks/CMakeFiles/expand7.dir/build.make benchmarks/CMakeFiles/expand7.dir/build
+make[2]: Entering directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[ 98%] Building CXX object benchmarks/CMakeFiles/expand7.dir/expand7.cpp.o
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks && /usr/bin/c++    -I/home/spandan/KGP/BTP/project_dependency_parser/symengine -isystem /home/spandan/anaconda3/include  -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   -o CMakeFiles/expand7.dir/expand7.cpp.o -c /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks/expand7.cpp
+[100%] Linking CXX executable expand7
+cd /home/spandan/KGP/BTP/project_dependency_parser/symengine/benchmarks && /usr/bin/cmake -E cmake_link_script CMakeFiles/expand7.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -fno-common -O3 -march=native -funroll-loops -std=c++11 -fPIC -Wno-unknown-pragmas   CMakeFiles/expand7.dir/expand7.cpp.o  -o expand7 -rdynamic ../symengine/libsymengine.a /home/spandan/anaconda3/lib/libgmp.so -Wl,-rpath,/home/spandan/anaconda3/lib
+make[2]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+[100%] Built target expand7
+make[1]: Leaving directory '/home/spandan/KGP/BTP/project_dependency_parser/symengine'
+/usr/bin/cmake -E cmake_progress_start /home/spandan/KGP/BTP/project_dependency_parser/symengine/CMakeFiles 0

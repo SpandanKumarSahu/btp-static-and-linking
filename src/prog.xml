@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<root id="0">
+   <TRANSLATION_UNIT extent.end="src/prog.c[13]" extent.start="src/prog.c[1]" id="140064819758624" is_definition="False" location="None" semantic_parent="0" spelling="src/prog.c" syntax_parent="140064814902472" usr="None">
+      <STRUCT_DECL extent.end="/home/spandan/KGP/BTP/testing/smallproj/lib/foo.h[7]" extent.start="/home/spandan/KGP/BTP/testing/smallproj/lib/foo.h[4]" id="140064814951416" is_definition="True" location="/home/spandan/KGP/BTP/testing/smallproj/lib/foo.h[4]" semantic_parent="140064814951552" spelling="foo_str" syntax_parent="140064814902552" usr="c:@S@foo_str">
+         <FIELD_DECL extent.end="/home/spandan/KGP/BTP/testing/smallproj/lib/foo.h[5]" extent.start="/home/spandan/KGP/BTP/testing/smallproj/lib/foo.h[5]" id="140064685974120" is_definition="True" location="/home/spandan/KGP/BTP/testing/smallproj/lib/foo.h[5]" semantic_parent="140064685973712" spelling="x" syntax_parent="140064814902792" usr="c:@S@foo_str@FI@x"/>
+         <FIELD_DECL extent.end="/home/spandan/KGP/BTP/testing/smallproj/lib/foo.h[6]" extent.start="/home/spandan/KGP/BTP/testing/smallproj/lib/foo.h[6]" id="140064685974256" is_definition="True" location="/home/spandan/KGP/BTP/testing/smallproj/lib/foo.h[6]" semantic_parent="140064685974800" spelling="y" syntax_parent="140064814902792" usr="c:@S@foo_str@FI@y"/>
+      </STRUCT_DECL>
+      <FUNCTION_DECL extent.end="/home/spandan/KGP/BTP/testing/smallproj/lib/foo.h[9]" extent.start="/home/spandan/KGP/BTP/testing/smallproj/lib/foo.h[9]" id="140064814951960" is_definition="False" location="/home/spandan/KGP/BTP/testing/smallproj/lib/foo.h[9]" semantic_parent="140064685973848" spelling="foo" syntax_parent="140064814902552" usr="c:@F@foo">
+         <TYPE_REF extent.end="/home/spandan/KGP/BTP/testing/smallproj/lib/foo.h[9]" extent.start="/home/spandan/KGP/BTP/testing/smallproj/lib/foo.h[9]" id="140064685974120" is_definition="False" location="/home/spandan/KGP/BTP/testing/smallproj/lib/foo.h[9]" semantic_parent="0" spelling="struct foo_str" syntax_parent="140064685985864" usr="None"/>
+         <PARM_DECL extent.end="/home/spandan/KGP/BTP/testing/smallproj/lib/foo.h[9]" extent.start="/home/spandan/KGP/BTP/testing/smallproj/lib/foo.h[9]" id="140064685974936" is_definition="True" location="/home/spandan/KGP/BTP/testing/smallproj/lib/foo.h[9]" semantic_parent="140064685973712" spelling="x" syntax_parent="140064685985864" usr="c:foo.h@110@F@foo@x">
+            <TYPE_REF extent.end="/home/spandan/KGP/BTP/testing/smallproj/lib/foo.h[9]" extent.start="/home/spandan/KGP/BTP/testing/smallproj/lib/foo.h[9]" id="140064685976024" is_definition="False" location="/home/spandan/KGP/BTP/testing/smallproj/lib/foo.h[9]" semantic_parent="0" spelling="struct foo_str" syntax_parent="140064685986024" usr="None"/>
+         </PARM_DECL>
+      </FUNCTION_DECL>
+      <FUNCTION_DECL extent.end="src/prog.c[12]" extent.start="src/prog.c[4]" id="140064814952096" is_definition="True" location="src/prog.c[4]" semantic_parent="140064685975072" spelling="main" syntax_parent="140064814902552" usr="c:@F@main">
+         <COMPOUND_STMT extent.end="src/prog.c[12]" extent.start="src/prog.c[5]" id="140064685974120" is_definition="False" location="src/prog.c[5]" semantic_parent="140064685974528" spelling="None" syntax_parent="140064685986344" usr="None">
+            <DECL_STMT extent.end="src/prog.c[6]" extent.start="src/prog.c[6]" id="140064685976568" is_definition="False" location="src/prog.c[6]" semantic_parent="0" spelling="None" syntax_parent="140064685986424" usr="None">
+               <VAR_DECL extent.end="src/prog.c[6]" extent.start="src/prog.c[6]" id="140064685977248" is_definition="True" location="src/prog.c[6]" semantic_parent="140064685976840" spelling="x" syntax_parent="140064685986504" usr="c:prog.c@128@F@main@x">
+                  <TYPE_REF extent.end="src/prog.c[6]" extent.start="src/prog.c[6]" id="140064685994600" is_definition="False" location="src/prog.c[6]" semantic_parent="0" spelling="struct foo_str" syntax_parent="140064685986584" usr="None"/>
+               </VAR_DECL>
+            </DECL_STMT>
+            <BINARY_OPERATOR extent.end="src/prog.c[7]" extent.start="src/prog.c[7]" id="140064685975616" is_definition="False" location="src/prog.c[7]" semantic_parent="0" spelling="None" syntax_parent="140064685986424" usr="None">
+               <MEMBER_REF_EXPR extent.end="src/prog.c[7]" extent.start="src/prog.c[7]" id="140064686002384" is_definition="False" location="src/prog.c[7]" semantic_parent="0" spelling="x" syntax_parent="140064685986904" usr="None">
+                  <DECL_REF_EXPR extent.end="src/prog.c[7]" extent.start="src/prog.c[7]" id="140064686003200" is_definition="False" location="src/prog.c[7]" semantic_parent="0" spelling="x" syntax_parent="140064685986984" usr="None"/>
+               </MEMBER_REF_EXPR>
+               <INTEGER_LITERAL extent.end="src/prog.c[7]" extent.start="src/prog.c[7]" id="140064686002520" is_definition="False" location="src/prog.c[7]" semantic_parent="0" spelling="None" syntax_parent="140064685986904" usr="None"/>
+            </BINARY_OPERATOR>
+            <DECL_STMT extent.end="src/prog.c[8]" extent.start="src/prog.c[8]" id="140064685976160" is_definition="False" location="src/prog.c[8]" semantic_parent="0" spelling="None" syntax_parent="140064685986424" usr="None">
+               <VAR_DECL extent.end="src/prog.c[8]" extent.start="src/prog.c[8]" id="140064686002384" is_definition="True" location="src/prog.c[8]" semantic_parent="140064686003336" spelling="y" syntax_parent="140064685987304" usr="c:prog.c@163@F@main@y">
+                  <TYPE_REF extent.end="src/prog.c[8]" extent.start="src/prog.c[8]" id="140064686003608" is_definition="False" location="src/prog.c[8]" semantic_parent="0" spelling="struct foo_str" syntax_parent="140064685987384" usr="None"/>
+               </VAR_DECL>
+            </DECL_STMT>
+            <BINARY_OPERATOR extent.end="src/prog.c[9]" extent.start="src/prog.c[9]" id="140064685976432" is_definition="False" location="src/prog.c[9]" semantic_parent="0" spelling="None" syntax_parent="140064685986424" usr="None">
+               <DECL_REF_EXPR extent.end="src/prog.c[9]" extent.start="src/prog.c[9]" id="140064686003336" is_definition="False" location="src/prog.c[9]" semantic_parent="0" spelling="y" syntax_parent="140064685987624" usr="None"/>
+               <CALL_EXPR extent.end="src/prog.c[9]" extent.start="src/prog.c[9]" id="140064686002792" is_definition="False" location="src/prog.c[9]" semantic_parent="0" spelling="foo" syntax_parent="140064685987624" usr="None">
+                  <UNEXPOSED_EXPR extent.end="src/prog.c[9]" extent.start="src/prog.c[9]" id="140064686004424" is_definition="False" location="src/prog.c[9]" semantic_parent="0" spelling="foo" syntax_parent="140064685987784" usr="None">
+                     <DECL_REF_EXPR extent.end="src/prog.c[9]" extent.start="src/prog.c[9]" id="140064686005240" is_definition="False" location="src/prog.c[9]" semantic_parent="0" spelling="foo" syntax_parent="140064685987944" usr="None"/>
+                  </UNEXPOSED_EXPR>
+                  <UNEXPOSED_EXPR extent.end="src/prog.c[9]" extent.start="src/prog.c[9]" id="140064686004560" is_definition="False" location="src/prog.c[9]" semantic_parent="0" spelling="x" syntax_parent="140064685987784" usr="None">
+                     <DECL_REF_EXPR extent.end="src/prog.c[9]" extent.start="src/prog.c[9]" id="140064686005648" is_definition="False" location="src/prog.c[9]" semantic_parent="0" spelling="x" syntax_parent="140064685988264" usr="None"/>
+                  </UNEXPOSED_EXPR>
+               </CALL_EXPR>
+            </BINARY_OPERATOR>
+            <RETURN_STMT extent.end="src/prog.c[11]" extent.start="src/prog.c[11]" id="140064685976296" is_definition="False" location="src/prog.c[11]" semantic_parent="0" spelling="None" syntax_parent="140064685986424" usr="None">
+               <INTEGER_LITERAL extent.end="src/prog.c[11]" extent.start="src/prog.c[11]" id="140064686003336" is_definition="False" location="src/prog.c[11]" semantic_parent="0" spelling="None" syntax_parent="140064685988504" usr="None"/>
+            </RETURN_STMT>
+         </COMPOUND_STMT>
+      </FUNCTION_DECL>
+   </TRANSLATION_UNIT>
+</root>
