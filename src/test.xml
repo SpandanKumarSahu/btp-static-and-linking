@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<GLOBAL>
+   <CLASS_DECL begin="src/test.cpp[3:1]" end="src/test.cpp[8:2]" id="246464015" parent_id="450197699" symbol="Sample" type="Sample">
+      <INHERITANCES/>
+   </CLASS_DECL>
+   <CLASS_DECL begin="src/test.cpp[11:1]" end="src/test.cpp[14:2]" id="4149637643" parent_id="450197699" symbol="Sample2" type="Sample2">
+      <INHERITANCES>
+         <BASE access="PUBLIC" name="Sample" ref_id="246464015" symbol="class Sample" type="CLASS_DECL"/>
+      </INHERITANCES>
+      <FIELD_DECL begin="src/test.cpp[13:2]" end="src/test.cpp[13:7]" id="179865449" parent_id="4149637643" symbol="z" type="int"/>
+   </CLASS_DECL>
+   <STRUCT_DECL begin="src/test.cpp[16:1]" end="src/test.cpp[16:14]" id="2999372374" parent_id="450197699" symbol="None" type="(anonymous struct at src/test.cpp:16:8)">
+      <INHERITANCES/>
+   </STRUCT_DECL>
+</GLOBAL>
