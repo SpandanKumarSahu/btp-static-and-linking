@@ -84,5 +84,5 @@ root = get_info(tu.cursor, root)
 root.set('id', str(0))
 # print(ET.tostring(root, encoding='utf8').decode('utf8'))
 xmlstr = minidom.parseString(ET.tostring(root)).toprettyxml(indent="   ")
-with open(str(args[0][:-1])+"xml", "w") as f:
+with open(str(args[0].split('.')[0])+".xml", "w") as f:
     f.write(xmlstr)
