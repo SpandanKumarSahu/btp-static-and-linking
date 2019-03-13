@@ -46,6 +46,12 @@ def get_info(node, parent):
   except:
     sub = SubElement(parent, "Unknown")
   # print(dir(node.extent.start))
+
+  # testing for offsets for structs
+  if node.kind.name == "STRUCT_DECL":
+      for c in node.type.get_fields():
+          print(c.spelling, node.type.get_offset(c.spelling))
+
   sub.set('id', str(node.hash))
   sub.set('parent_id', str(0) if node.semantic_parent is None else str(node.semantic_parent.hash))
   sub.set('usr', "None" if node.get_usr() is None else str(node.get_usr()))
