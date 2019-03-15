@@ -48,6 +48,7 @@ each time a parser is being used. A sample for each parser has been provided.
 
 3. To run parser2.py or parser1.py:
   `python parsers/parser2.py src/prog.c -I/<path to lib>`
+  (In parser1, there is no option for taking care of dependencies)
 
   This is basically the same as above, but these are sample codes. Kept, in case
   things go wrong and we need to revert

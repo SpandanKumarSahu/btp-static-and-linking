@@ -4,10 +4,7 @@ from clang.cindex import Index
 
 cl.Config.set_library_file("/usr/local/lib/libclang.so")
 
-include_string = "-I/home/spandan/KGP/BTP/testing/smallproj/lib"
-filename = "/home/spandan/KGP/BTP/testing/smallproj/src/prog.c"
-
-args = include_string
+filename = str(sys.argv[1])
 
 index = cl.Index.create()
 tu = index.parse(filename)
