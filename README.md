@@ -24,18 +24,49 @@ first run `make clean`, and then repeat step 2, before proceeding further
 
 
 ## Sytax Parser
-1. Use pycparser (For c based programs only):
-  * First, get a precompiled program using `gcc -E`
-  * Then use python python to run parser.py:
-    `python parsers/parser.py src/prog.c -I/<path to lib>`
-    (For me, it is: /home/spandan/KGP/BTP/testing/smallproj/lib)
-  PS: The path to lib is extracted from the cmake extractor, code is in parsers/extractor
-2. To run parser1.py:
-  `python parsers/parser1.py`
-3. To run parser2.py (Important):
+
+As a general rule, for each compilation line in the output generated above,
+you have to copy the dependency and the filename (for the time, will be automated later),
+each time a parser is being used. A sample for each parser has been provided.
+
+1. To run the latest, most logical XML-parser:
+  `python parsers/syntax_parser.py <c_filename> -I<dependencies`
+  For example, for me it would be something like this:
+  `python parsers/syntax_parser.py src/prog.c -Ilib`
+
+  The result would be stored in the same place as the source C/C++ file, with
+  XML extension. The XML may be viewed in a browser or a normal text editor. This
+  parser has been made from the SyntaxTree.cpp file from Clang/Examples
+
+2. Run parsed_parser.py (Important features, plus conversion to xml):
+  `python parsers/parsed_parser.py <filename> -I/<dependencies>`
+
+  example: `python parsers/parsed_parser.py src/prog.c -Ilib`
+  This is basically the same as above, but the features are either at-times,
+  over-explaining, or some attributes are missing in some very particular nodes.
+  This can be used for future development and to test new features to be included
+
+3. To run parser2.py or parser1.py:
   `python parsers/parser2.py src/prog.c -I/<path to lib>`
-4. Run parserd_parser.py (Important features, plus conversion to xml):
-  `python parsers/parsed_parser.py src/prog.c -I/<path to lib>`
+
+  This is basically the same as above, but these are sample codes. Kept, in case
+  things go wrong and we need to revert
+
+4. Use pycparser (For c based programs only):
+  * First, get a precompiled program using `gcc -E <filename> <dependencies> > <preprocessed_filename>` (or `g++`)
+  * Then use python python to run parser.py:
+    `python parsers/parser.py <path_to_preprocessed_file>`
+    (For me, the series of commands would be:
+      `gcc -E src/prog.c -Ilib > temp.i` followed by `python parsers/parser.py temp.i`)
+
+5. Use native clang expressions:
+  `clang -Xclang -ast-dump -fsyntax-only <filename> <dependencies>` and
+  `clang-check -ast-dump --extra-arg="<dependencies>" <filename>`
+
+  This is the inbuilt Clang AST dump function. Hasn't been explored in great depth
+  (Except that, you don't need to install anything else for it to work. Can work
+  with bare clang installations)
+
 
 ### [TODO]:
 - [X] Add .gitignore
