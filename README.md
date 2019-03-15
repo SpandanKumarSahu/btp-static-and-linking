@@ -38,7 +38,7 @@ first run `make clean`, and then repeat step 2, before proceeding further
   `python parsers/parsed_parser.py src/prog.c -I/<path to lib>`
 
 ### [TODO]:
-- [ ] Add .gitignore
+- [X] Add .gitignore
 - [ ] Include all features
 - [ ] Provide flag for excluding standard libraries
 - [X] Provide a cmake for building this file
